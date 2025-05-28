@@ -1,0 +1,65 @@
+/* App.css */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    background: #fff;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+.btn, .btn-link, .btn-danger, .btn-save, .btn-print {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.25rem;
+    border: none;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-danger {
+    background: #dc3545;
+}
+
+.btn-save {
+    background: #28a745;
+}
+
+.btn-print {
+    background: #6c757d;
+}
+
+.btn-link {
+    background: transparent;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.summary {
+    font-weight: bold;
+    margin-top: 1rem;
+}
